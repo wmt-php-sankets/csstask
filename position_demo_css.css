@@ -1,0 +1,128 @@
+.display1 {
+    height: 40px;
+    width: 100%;
+    border: 2px solid;
+}
+
+h3 {
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+}
+
+#box1 {
+    height: 50%;
+    width: 50%;
+    background-color: red;
+    position: fixed;
+}
+
+.box1_1 {
+    height: 30%;
+    width: 20%;
+    background-color: blue;
+    position: absolute;
+    top: -60%;
+    left: 15%;
+}
+
+.a1 {
+    position: relative;
+    left: 50%;
+    top: 50%;
+}
+
+.box1_1,
+p {
+    color: white;
+    margin-left: 30%;
+    margin-top: 40%;
+}
+
+#box2 {
+    height: 50%;
+    width: 50%;
+    background-color: green;
+    position: fixed;
+    left: 49%;
+}
+
+.box2_2,
+p {
+    color: white;
+    margin-left: 30%;
+    margin-top: 40%;
+}
+
+.box2_2 {
+    height: 30%;
+    width: 20%;
+    background-color: blue;
+    position: absolute;
+    top: -55%;
+    left: 50%;
+}
+
+.a2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 400px;
+    z-index: 1;
+}
+
+.box3 {
+    height: 43%;
+    width: 49%;
+    background-color: yellow;
+    position: fixed;
+    left: 0%;
+    top: 56%;
+}
+
+.box3_3 {
+    height: 30%;
+    width: 20%;
+    background-color: blue;
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
+}
+
+.box3_3,
+p {
+    color: white;
+    margin-left: 30%;
+    margin-top: 40%;
+}
+
+.a3 {
+    position: relative;
+    left: 50%;
+    top: 40%;
+}
+
+.box4 {
+    height: 43%;
+    width: 50%;
+    background-color: slateblue;
+    position: fixed;
+    left: 49%;
+    top: 56%;
+}
+
+.box4_4 {
+    height: 30%;
+    width: 20%;
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.a4 {
+    position: relative;
+    left: 50%;
+    top: 0%;
+}
