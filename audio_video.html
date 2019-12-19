@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body {
+            background-image: url(img2.jpg);
+            height: 95vh;
+            width: 95vw;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+        
+        .file1 {
+            margin-left: 20%;
+            margin-top: 20px;
+        }
+        
+        .file2 {
+            height: 20px;
+            width: 80%;
+        }
+        /* using media query   */
+        
+        @media(max-width:768px) {
+            body {
+                background-image: url(img1.jpg);
+            }
+            .file1 {
+                margin-top: 150px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="file1">
+        <video width="80%" height="70%" controls>
+       <source src="video1.mp4" type="video/mp4"> 
+    </video>
+        <audio class="file2" controls>
+            <source src="audio1.mp3" type="audio/mpeg">
+     
+
+      </audio>
+    </div>
+</body>
+
+</html>
